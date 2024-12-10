@@ -32,7 +32,14 @@
       "last 1 safari version"
     ]
   }
-}
 
 "homepage": "https://vitalij31.github.io/vetshanova_laba11"
+  
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+}
+
 
